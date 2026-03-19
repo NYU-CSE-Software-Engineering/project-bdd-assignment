@@ -66,7 +66,7 @@ Scenario: User fails to create a post without a title
   And I am on the new post page
   When I fill in "Content" with "This post has no title."
   And I press "Create Post"
-  Then I should see an error message indicating the title is missing`
+  Then I should see an error message indicating the title is missing
 ```
 
 ### Task 4: Generate and Implement Step Definitions
