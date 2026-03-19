@@ -73,7 +73,7 @@ Scenario: User fails to create a post without a title
 
 Translate the Gherkin steps into executable Ruby code using Capybara.
 1. **Run Cucumber**: From your Docker shell, run `cucumber` to get the pending step definition snippets.
- 
+
 2. **Create the Step Definition File**: Create a new file for your steps (e.g., `features/step_definitions/post_steps.rb`).
 
 3. **Implement the Steps**: Copy the snippets into your new file and replace the pending comments with Capybara actions.
