@@ -25,8 +25,7 @@ When you use Cucumber and Capybara in a Rails project, typically by using the `c
 
     * Example: **`features/step_definitions/web_steps.rb`**
 
-    * These files contain the Ruby code that implements the steps defined in your feature files (the `Given`, `When`, `Then` lines). The code here uses Capybara's DSL (Domain Specific Language)
-methods (like `visit`, `click_button`, `fill_in`, and `page.has_content?`) to interact with the web application and make assertions.
+    * These files contain the Ruby code that implements the steps defined in your feature files (the `Given`, `When`, `Then` lines). The code here uses Capybara's DSL (Domain Specific Language) methods (like `visit`, `click_button`, `fill_in`, and `page.has_content?`) to interact with the web application and make assertions.
 
 * **Configuration Files**
 
