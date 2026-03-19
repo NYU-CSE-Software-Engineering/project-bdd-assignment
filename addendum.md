@@ -6,7 +6,7 @@ When you use Cucumber and Capybara in a Rails project, typically by using the `c
 * **Inside the `features/` Directory**
   * Feature Files (**`.feature`**):
     * Example: **`features/my_feature.feature`**
-   
+
     * These files are written in Gherkin, a plain-text, structured language (using keywords like Feature, Scenario, Given, When, Then, and And). They describe the application's behavior from a user's perspective.
 
   * Support Files Directory (**`support/`**):
