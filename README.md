@@ -20,7 +20,7 @@ Each member of the team is required to select **two core features** from your pr
 
 Before writing any tests, you must clearly define each feature.
 
-* **Create a Design Document**: In the `docs/` directory of your project, each team member should create a new file named `<your_feature_name>.md`. One team member should create a single .md file that links to all of the feature story files from the team. (See the slides from Chapter 7 for a reminder about user stories.)
+* **Create a Design Document**: In the `docs/` directory of your project, each team member should create a new file named `docs/<your_feature_name>.md`. One team member should create a single `docs/<team_feature_index>.md` file that links to all of the feature story files from the team. (See the slides from Chapter 7 for a reminder about user stories.)
 
 * **Write the User Story**: Inside this file, write a single user story for your feature. Thus, each team member will create two unique files that detail the user story for their selected features. The story should follow the standard format: _"As a [type of user], I want to [perform some task] so that I can [achieve some goal]."_
 
