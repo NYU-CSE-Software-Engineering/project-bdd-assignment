@@ -108,7 +108,8 @@ end
 ## Deliverables
 
 Commit and push the following files to your project repository:
-1. `docs/<your_feature_name>.md`: Containing your user story, acceptance criteria, and MVC component outline.
-2. `features/<your_feature_name>.feature`: Your Gherkin feature file.
-3. `features/step_definitions/<your_steps>.rb`: Your Ruby step definition file.
-4. `features/screenshots/<your_feature_name_N>.jpg`: A screenshot (one or more, where N is a number) of your shell/terminal after running Cucumber showing the failing test output for your scenarios.
+1. For each of your two features, a design document `docs/<your_feature_name>.md` containing your user story, acceptance criteria, and MVC component outline (you will therefore have two such files).
+2. For each of your two features, a Gherkin feature file `features/<your_feature_name>.feature` describing the scenarios for that feature.
+3. For each of your two features, corresponding Ruby step definitions in `features/step_definitions/<your_steps>.rb` that implement all of the steps used in your feature files (you may organize these in one or more files, but they must cover both of your features).
+4. For each of your two features, at least one screenshot `features/screenshots/<your_feature_name_N>.jpg` (where N is a number) of your shell/terminal after running Cucumber, showing the failing test output for your scenarios.
+5. A single team-level index file (created by one team member) in `docs/<team_feature_index>.md` that links to all of the feature-story design documents (`docs/<your_feature_name>.md`) for every team member.
