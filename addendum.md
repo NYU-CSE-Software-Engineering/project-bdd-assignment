@@ -34,5 +34,5 @@ methods (like `visit`, `click_button`, `fill_in`, and `page.has_content?`) to in
 
   * **Rake Task**: A new Rake task, typically `rake cucumber` or `rake features`, is configured to allow you to run the Cucumber suite easily from the command line.
 
-In short, Cucumber establishes the behavior (what to test) in `.feature` files, and Capybara provides the tools used in the step definitions (how to test) to simulate user interaction with the 
+In short, Cucumber establishes the behavior (what to test) in `.feature` files, and Capybara provides the tools used in the step definitions (how to test) to simulate user interaction with the
 Rails application.
