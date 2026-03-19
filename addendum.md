@@ -15,7 +15,7 @@ When you use Cucumber and Capybara in a Rails project, typically by using the `c
 
       * Configuration for Capybara (e.g., setting the default driver, like `rack_test` or a browser-based driver like Selenium or Cuprite, and the app host).
 
-      * Set up for Database Cleaner (often included with `cucumber-rails`) to ensure a clean database state between scenarios.
+      * Set up Database Cleaner (often included with `cucumber-rails`) to ensure a clean database state between scenarios.
 
     * **`features/support/paths.rb`**: This file contains helper methods to map user-friendly path names (used in feature files, like "the home page") to actual Rails routes (e.g., `root_path`).
 
