@@ -1,4 +1,5 @@
 # Project Design: Behavior-Driven Development
+
 ## Objective
 The goal of this assignment is to refine the design of your proposed team project by applying Behavior-Driven Development (BDD) principles. Each member of the team will select a feature of your application, translate its requirements into multiple detailed user stories, and create a full set of acceptance tests that specify its behavior. In support of this, some of the project software may need to be implemented.
 
@@ -7,14 +8,14 @@ You will use Cucumber and Capybara to create these specifications. This exercise
 ## Background
 Behavior-Driven Development is a software development process that bridges the gap between technical implementation and business requirements. By writing specifications in a natural, human-readable language, you ensure that your project's features are well-defined and meet user expectations from the start.
 
-[Cucumber](https://cucumber.io/) is a tool that reads plain-text specifications (written in Gherkin) and executes them as automated tests. See [this link](https://cucumber.io/docs/gherkin/reference) for the syntax reference. And [here's a link](https://cucumber.io/docs/guides/10-minute-tutorial) to a 10-minute tutorial.
+[Cucumber](https://cucumber.io/) is a tool that reads plain-text specifications (written in Gherkin) and executes them as automated tests. See [this link](https://cucumber.io/docs/gherkin/reference) for the syntax reference. And [here's a link](https://cucumber.io/docs/guides/10-minute-tutorial/?lang=ruby) to a 10-minute tutorial.
 
 [Capybara](https://teamcapybara.github.io/capybara/) is a library that simulates how a user interacts with your web application, allowing you to test the application from an external, user-centric perspective.
 
 For this assignment, you will use these tools to create a detailed, testable design for a key part of your application.
 
 ## Your Tasks
-Each member of the team is required to select **two core features** from your proposed project, develop the user stories associated with those features, and create the necessary files to specify and test their behavior. Each feature selected by each team member should be distinct from those features that the other team members are completing.
+Each member of the team is required to select **three core features** from your proposed project, develop the user stories associated with those features, and create the necessary files to specify and test their behavior. Each feature selected by each team member should be distinct from those features that the other team members are completing.
 
 ### Task 1: Define Your Features with User Stories
 
@@ -113,3 +114,11 @@ Commit and push the following files to your project repository:
 3. For each of your two features, corresponding Ruby step definitions in `features/step_definitions/<your_steps>.rb` that implement all of the steps used in your feature files (you may organize these in one or more files, but they must cover both of your features).
 4. For each of your two features, at least one screenshot `features/screenshots/<your_feature_name_N>.jpg` (where N is a number) of your shell/terminal after running Cucumber, showing the failing test output for your scenarios.
 5. A single team-level index file (created by one team member) in `docs/<team_feature_index>.md` that links to all of the feature-story design documents (`docs/<your_feature_name>.md`) for every team member.
+
+## Addendum
+
+- [Addendum](addendum.md)
+
+## Grading Rubric
+
+- [Grading Rubric](grading_rubric.md)
