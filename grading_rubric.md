@@ -1,6 +1,36 @@
-# Grading Rubric and Policy
+# Grading Policy, Team- and Individual- Grading Rubrics, and Rebasing/Merge Conflicts
 
-## Grading Rubric
+## Grading Policy
+
+While this assignment provides tasks for each team member, it is graded both as a "team" assignment and with some
+validation of individual responsibilities. That is, the submitted files will be reviewed and team-level rubrics will be
+checked, but an individual set of rubrics exist for individual expectations.
+
+Members of the team will be expected to review each other's work and encourage completeness. Everyone contributes. If
+someone fails to do their portion of the work, then there will be a representative deduction for the grade for all
+team members, since it is the team's responsibility to complete the assignment. Of course, if a team member does not
+contribute to the BDD work, then it is also likely their individual rubric items would be negatively impacted
+the board AND the team member(s) that do not complete the work will receive no grade.
+
+In support of this policy, we will be looking at the following:
+
+- Each team member will author at least 1 branch for each BDD feature implemented (see "Your Tasks" in the
+  [README file](README.md)). Thus, we should see not less than 3 branches for your work (more is fine, if necessary).
+- Each created branch will be committed locally, pushed to the team's repo on [GitHub](http://www.github.org). And a
+  corresponding pull request (PR) will be created.
+- When a PR is created, the author must put in a 2-3 sentences of a description of the purpose of the PR.
+- The PR author will both:
+    - use the "Reviewers" panel to tag one or more team members to request them to review your work, and
+    - use the "@username" to ask a team member/s for a code review
+- Each team member should code review at least 4 pull requests for other members of their team. Team members CAN NOT
+  code review their own PRs. Code reviews can have more than one reviewer. All pull requests must include non-trivial
+code review comments by the review and gain the approval to merge the PR, if appropriate (see next item).
+- Team members doing code reviews should review the PR for functional correctness. Are the files complete? Are they in
+  the correct directories? Are they named correctly? If not, reject the PR and ask the author to fix the issues, then to
+  commit those files again locally to the branch, and to push the branch again to GitHub. This will add the new commit
+  files to the PR and the PR needs to be code reviewed again.
+
+- ## Team Grading Rubric (Max. 25 points)
 
 | Criteria                         | Does Not Meet Expectations (0-1)                                                                    | Meets Expectations (2-3)                                                                                       | Exceeds Expectations (4-5)                                                                                    | 
 |----------------------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -10,36 +40,17 @@
 | Step Definitions (Ruby/Capybara) | The file is missing, contains syntax errors, or does not implement the feature steps with Capybara. | All steps are implemented, and Capybara is used correctly to describe user actions and assertions.             | Step definitions are clean, concise, and demonstrate a strong command of the Capybara API.                    |
 | Correctness & Completion         | Deliverables are missing, or the tests do not run correctly.                                        | All required files are submitted. Running Cucumber shows the tests failing for the correct reasons.            | All deliverables are present, and the test output demonstrates a perfect setup for the development phase.     | 
 
-## Grading Policy
-While this assignment provides tasks for each team member, it is a "team" assignment.  That is, all the submitted 
-files will be reviewed and one overall grade will be assigned (based on the above) rubric for all the work. Members 
-of the team will be expected to review each other's work and encourage completeness. Everyone contributes. If someone 
-fails to do the work, then there will be a representative deduction for the grade across the board AND the team 
-member(s) that do not complete the work will receive no grade.
+__Do we need this to look more like a list of files that are the deliverables? Can you re-work the table? __
 
-In support of this policy, we will be looking additionally for the following:
-- Each team member should create their own files via their own branch in git.
+## Individual Grading Rubric (Max. XX points)
 
-- Each team member should commit and push their own branch to the repo and create a pull request (PR) for code review. 
-When creating the PR, use the "Reviewers" panel to tag one or more team members to request them to review your work.
+| Criteria                                                                                                                                           | Meets Criteria (3 points) | Fails To Meet Criteria (0 points) |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|-----------------------------------|
+| Member created at least 3 branches / pull requests for BDD work. Pull request contains intelligent non-trivial comment                             |                           |                                   |
+| Member's pull request correctly tags code request of teammate's userid in both the Reviews panel and in the comment field.                         |                           |                                   |
+| Member performed code reviews for 4 or more pull requests of other teammate's pull request. Code review includes non-trivial comments by reviewer. |                           |                                   |
+| Member's pull request obtained approval for merger through the code review process of at least 1 teammate.                                         |                           |                                   |
+| Member performs merge to `main` branch of the branch/pull request they opened/created.                                                             |                           |                                   |
+| Member did not merge another member's branch/pull request.                                                                                         |                           |                                   |
 
-- Another team member should review your PR for correctness. Are the files complete? Are they in the correct
-directories? Are they named correctly? If not, reject the PR and ask the submitter to fix the issues, commit and push
-again.  The PR will then require a review again.
-
-When reviewing another member's PR, you should review the files using the "File changed" tab and look at every file. 
-See below.
-
-To approve the review, use the "Review Changes" button (the green one shown above) to display the "Finish Your Review" 
-window. Leave a comment (required) that acknowledges your review and if you approve the merge, select the correct 
-radio button and then click "Submit your review". See image. You can also use this window to request changes to the 
-files (in order to reject the PR's merge).
-
-Once approved, the original code submitter can merge the PR to the main/master branch. We will be looking to see 
-this process carried out for all team members as they add their files. This is real software development and how 
-it works in industry. If you don't understand the process, please ask questions!
-
-Do you know how to update your local repo with all the code that will be pushed by your peers?  Find out! 
-You'll want to update your local repo frequently. One person gathering all changed files from all the team members, 
-and then submitting one commit/branch/PR is not allowed. You are learning to work collaboratively via git!  Not sure 
-how to do this? Ask!
+__Thoughts on the points here for each table/item?__

@@ -115,10 +115,11 @@ Commit and push the following files to your project repository:
 4. For each of your two features, at least one screenshot `features/screenshots/<your_feature_name_N>.jpg` (where N is a number) of your shell/terminal after running Cucumber, showing the failing test output for your scenarios.
 5. A single team-level index file (created by one team member) in `docs/<team_feature_index>.md` that links to all of the feature-story design documents (`docs/<your_feature_name>.md`) for every team member.
 
-## Addendum
+## Addendums
 
 - [Addendum](addendum.md)
+- [Local Repo Updating and Merge Conflicts](rebasing_and_merge_conflicts.md)
 
-## Grading Rubric
+## Next
 
-- [Grading Rubric](grading_rubric.md)
+- [Grading Policy, Team- and Individual- Grading Rubrics, and Rebasing/Merge Conflicts](grading_rubric.md)
