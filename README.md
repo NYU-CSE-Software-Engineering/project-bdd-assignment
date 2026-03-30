@@ -122,4 +122,4 @@ Commit and push the following files to your project repository:
 
 ## Next
 
-- [Grading Policy, Team- and Individual- Grading Rubrics, and Rebasing/Merge Conflicts](grading_rubric.md)
+- [Grading Policy, Team and Individual Grading Rubrics, and Rebasing/Merge Conflicts](grading_rubric.md)
