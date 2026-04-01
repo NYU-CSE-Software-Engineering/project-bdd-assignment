@@ -1,7 +1,7 @@
 # Project Design: Behavior-Driven Development
 
 ## Objective
-The goal of this assignment is to refine the design of your proposed team project by applying Behavior-Driven Development (BDD) principles. Each member of the team will select a feature of your application, translate its requirements into multiple detailed user stories, and create a full set of acceptance tests that specify its behavior. In support of this, some of the project software may need to be implemented.
+The goal of this assignment is to refine the design of your proposed team project by applying Behavior-Driven Development (BDD) principles. Each member of the team will select three core features of the application, translate their requirements into multiple detailed user stories, and create a full set of acceptance tests that specify its behavior. In support of this, some of the project software may need to be implemented.
 
 You will use Cucumber and Capybara to create these specifications. This exercise will force you to think through user interaction and application logic before writing any significant implementation code for your own project.
 
