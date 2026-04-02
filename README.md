@@ -23,7 +23,7 @@ Before writing any tests, you must clearly define each feature.
 
 * **Create a Design Document**: In the `docs/` directory of your project, each team member should create a new file named `docs/<your_feature_name>.md`. One team member should create a single `docs/<team_feature_index>.md` file that links to all of the feature story files from the team. (See the slides from Chapter 7 for a reminder about user stories.)
 
-* **Write the User Story**: Inside this file, write a single user story for your feature. Thus, each team member will create two unique files that detail the user story for their selected features. The story should follow the standard format: _"As a [type of user], I want to [perform some task] so that I can [achieve some goal]."_
+* **Write the User Story**: Inside this file, write a single user story for your feature. Thus, each team member will create three unique files that detail the user story for their selected features. The story should follow the standard format: _"As a [type of user], I want to [perform some task] so that I can [achieve some goal]."_
 
 * **Define Acceptance Criteria**: Below the user story, list three to five specific, testable acceptance criteria. These will define what it means for the feature to be "complete" and will form the basis of your test scenarios. Consider your "happy" and "sad" paths as candidates to include.
 
@@ -109,10 +109,10 @@ end
 ## Deliverables
 
 Commit and push the following files to your project repository:
-1. For each of your two features, a design document `docs/<your_feature_name>.md` containing your user story, acceptance criteria, and MVC component outline (you will therefore have two such files).
-2. For each of your two features, a Gherkin feature file `features/<your_feature_name>.feature` describing the scenarios for that feature.
-3. For each of your two features, corresponding Ruby step definitions in `features/step_definitions/<your_steps>.rb` that implement all of the steps used in your feature files (you may organize these in one or more files, but they must cover both of your features).
-4. For each of your two features, at least one screenshot `features/screenshots/<your_feature_name_N>.jpg` (where N is a number) of your shell/terminal after running Cucumber, showing the failing test output for your scenarios.
+1. For each of your features, a design document `docs/<your_feature_name>.md` containing your user story, acceptance criteria, and MVC component outline (you will therefore have three such files).
+2. For each of your features, create a Gherkin feature file `features/<your_feature_name>.feature` describing the scenarios for that feature.
+3. For each of your features, place corresponding Ruby step definitions in `features/step_definitions/<your_steps>.rb` that implement all of the steps used in your feature files (you may organize these in one or more files, but they must cover both of your features).
+4. For each of your features, at least one screenshot `features/screenshots/<your_feature_name_N>.jpg` (where N is a number) of your shell/terminal after running Cucumber, showing the failing test output for your scenarios.
 5. A single team-level index file (created by one team member) in `docs/<team_feature_index>.md` that links to all of the feature-story design documents (`docs/<your_feature_name>.md`) for every team member.
 
 ## Addendums
