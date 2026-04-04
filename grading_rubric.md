@@ -54,9 +54,9 @@ In support of this policy, we will be looking at the following:
 | Criteria                                                                                                                                            | Meets Criteria (3 pts.) | Fails To Meet Criteria (0 pts.) |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|---------------------------------|
 | Member created at least 3 branches / pull requests for BDD work. Each pull request contains an intelligent, non-trivial 2-3 sentence description.   |                         |                                 |
-| Member's pull request correctly tags code request of teammate's userid in both the Reviews panel and in the comment field using @ notation.         |                         |                                 |
+| Member's pull request correctly tags code review request of teammate's userid in both the Reviews panel and in the comment field using @ notation.  |                         |                                 |
 | Member performed code reviews for 4 or more pull requests of other teammates' pull requests. Code review includes non-trivial comments by reviewer. |                         |                                 |
 | Member's pull request obtained approval for merger through the code review process of at least 1 teammate.                                          |                         |                                 |
 | Member performs merge to `main` branch of the branch/pull request they opened/created.                                                              |                         |                                 |
 | Member did not merge another member's branch/pull request.                                                                                          |                         |                                 |
-| Member did not code review their own branch/pull requrest.                                                                                          |                         |
+| Member did not code review their own branch/pull request.                                                                                           |                         |
