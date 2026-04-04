@@ -1,4 +1,5 @@
 # Addendum
+
 When you use Cucumber and Capybara in a Rails project, typically by using the `cucumber-rails` gem and running its 
 generator (`rails generate cucumber:install`), the following key files and directories are created or configured:
 
