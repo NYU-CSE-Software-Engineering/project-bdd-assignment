@@ -6,11 +6,9 @@ While this assignment provides tasks for each team member, it is graded both as 
 validation of individual responsibilities. That is, the submitted files will be reviewed and team-level rubrics will be
 checked, but an individual set of rubrics exist for individual expectations.
 
-Members of the team will be expected to review each other's work and encourage completeness. Everyone contributes. If
-someone fails to do their portion of the work, then there will be a representative deduction for the grade for all
-team members, since it is the team's responsibility to complete the assignment. Of course, if a team member does not
-contribute to the BDD work, then it is also likely their individual rubric items would be negatively impacted across
-the board AND the team member(s) that do not complete the work will receive no grade.
+Members of the team will be expected to review each other's work and encourage completeness. Everyone contributes. If 
+a team member does not contribute to the BDD work, then their individual rubric items would be negatively impacted across
+the board AND the team member(s) that do not complete the work will receive no credit for the team's work.
 
 In support of this policy, we will be looking at the following:
 
