@@ -33,17 +33,18 @@ feature selected by each team member should be distinct from those features that
 Before writing any tests, you must clearly define each feature.
 
 * **Create a Design Document**: In the `docs/` directory of your project, each team member should create a new file 
-named `docs/<your_feature_name>.md`. One team member should create a single `docs/team_feature_index.md` file that 
+named `docs/<your_feature_name>.md`. Consider using a numbering scheme in the name [as we did with this example](https://github.com/Child-Focus-NJ/sprout/blob/main/docs/user-stories/09-signin-attendance.md).
+One team member should create a single `docs/team_feature_index.md` file that 
 links to each of the feature story files from the team. (See the slides from Chapter 7 for a reminder about user 
-stories.)
+stories.) Add a list of acceptance criteria for the features. Out-of-scope work can be listed here as well, but it
+should be very limited if you are building a full application (grad students!).
 
-* **Write the User Story**: Inside this file, write a single user story for your feature. Thus, each team member will 
-create three unique files that detail the user story for their selected features. The story should follow the standard 
-* format: _"As a [type of user], I want to [perform some task] so that I can [achieve some goal]."_
+* **Write the User Stories**: For each feature, add at least **three user stories**. Each user story should follow
+the standard format: _"As a [type of user], I want to [perform some task] so that I can [achieve some goal]."_
 
-* **Define Acceptance Criteria**: Below the user story, list three to five specific, testable acceptance criteria. 
+* **Define Acceptance Criteria**: Below each user story, list three to five specific, testable acceptance criteria. 
 These will define what it means for the feature to be "complete" and will form the basis of your test scenarios. 
-Consider your "happy" and "sad" paths as candidates to include.
+Your scenarios _must include_ at least one "happy" path, one "sad" path, and an "edge" case path.
 
 ### Task 2: Outline the MVC Components
 
@@ -65,10 +66,10 @@ Translate your user story and acceptance criteria into a [Gherkin](https://cucum
 feature file.
 
 1. **Create the file**: In your Rails project, create a new file under the `features/` directory (e.g., 
-`features/creating_a_post.feature`).
+`features/creating_a_post.feature`). Here is an example: [features/09_sign_in_attendance.feature](https://github.com/Child-Focus-NJ/sprout/blob/main/features/09_sign_in_attendance.feature)
 
-2. **Write the specification**: Write scenarios that test your acceptance criteria. You should have at least one 
-"happy path" (success) scenario and at least one failure or edge-case scenario.
+2. **Write the specification**: Write scenarios that test your acceptance criteria. You should have at least one
+"happy path" (success) scenario, one failure scenario, and one edge-case scenario.
 
 #### Example Gherkin Structure (for a blog post feature):
 ```gherkin
@@ -136,20 +137,20 @@ end
 
 Commit and push the following files to your project repository:
 1. For each of your three features, a design document `docs/<your_feature_name>.md` containing your user story, 
-acceptance criteria, and MVC component outline (you will therefore have two such files).
+acceptance criteria, and MVC component outline.
 2. For each of your three features, a Gherkin feature file `features/<your_feature_name>.feature` describing the 
 scenarios for that feature.
 3. For each of your three features, corresponding Ruby step definitions in `features/step_definitions/<your_steps>.rb` 
 that implement each of the steps used in your feature files (you may organize these in one or more files, but they 
-must cover both of your features).
+must cover all of your features).
 4. For each of your three features, at least one screenshot `features/screenshots/<your_feature_name_N>.jpg` 
 (where N is a number) of your shell/terminal after running Cucumber, showing the failing test output for your scenarios.
 5. A single team-level index file (created by one team member) in `docs/team_feature_index.md` that links to each of 
 the feature-story design documents (`docs/<your_feature_name>.md`) for every team member.
 
 ## Final Thought
-Note that we do not expect your tests to pass. At all. We will address this in the next assignment, working with 
-test-driven design. There you will work on unit testing, adding your implementation such that both the Rspec TDD tests
+Note that we do not expect your tests to pass at all. We will address this in the next assignment, working with 
+test-driven design. There you will work on unit testing, adding your implementation such that both the RSpec TDD tests
 _and_ the BDD tests will pass.
 
 ## Addenda
