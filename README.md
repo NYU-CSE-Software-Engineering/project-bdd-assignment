@@ -68,8 +68,8 @@ feature file.
 1. **Create the file**: In your Rails project, create a new file under the `features/` directory (e.g., 
 `features/creating_a_post.feature`). Here is an example: [features/09_sign_in_attendance.feature](https://github.com/Child-Focus-NJ/sprout/blob/main/features/09_sign_in_attendance.feature)
 
-2. **Write the specification**: Write scenarios that test your acceptance criteria. You should have at least one 
-"happy path" (success) scenario and at least one failure or edge-case scenario.
+2. **Write the specification**: Write scenarios that test your acceptance criteria. You should have at least one
+"happy path" (success) scenario, one failure scenario, and one edge-case scenario.
 
 #### Example Gherkin Structure (for a blog post feature):
 ```gherkin
